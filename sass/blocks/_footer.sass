@@ -1,0 +1,51 @@
+.footer
+    position: relative
+    
+.map
+    position: absolute
+    width: 50%
+    top: 0
+    left: 0
+.under
+    flex-basis: 50%
+    padding-top: 100px
+    padding-left: 200px
+
+    &__title
+        font-family: 'Museo Sans Bold'
+        font-size: 22px
+        line-height: 1.4
+        margin-bottom: 100px
+    &-block
+        display: flex
+        justify-content: flex-end
+    &-list
+        padding: 0
+        list-style: none
+        &__icon
+            width: 20px
+            height: 20px
+            text-align: center
+            align-items: center
+            margin-right: 23px
+
+        &__item
+            display: flex
+            align-items: flex-start
+            margin-bottom: 39px
+            a 
+                text-decoration: none
+                font-family: 'Museo Sans Bold'
+                color: #000
+            strong
+                font-family: 'Museo Sans Bold'
+@media   ( max-width: 768px )
+    .map
+        top: 500px
+        width: 100%
+    .under
+        flex-basis: 100%
+        padding-top: 57px
+        padding-left: 0px
+        &__title
+            max-width: 500px

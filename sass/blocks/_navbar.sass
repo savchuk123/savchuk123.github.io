@@ -1,0 +1,41 @@
+
+    
+    
+.navbar
+    &-block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        
+    &__info
+        display: flex
+        justify-content: center
+        text-align: right
+        
+        align-items: center
+    &__logo
+        
+ 
+    &__contact
+        display: flex
+        flex-direction: column
+        padding: 16px
+        margin-right: 10px
+    &__address
+        color: $text-color 
+        font-size: 13px
+        margin-bottom: 10px 
+
+    &__number
+        color: $text-color
+        font-size: 20px
+        text-decoration: none
+        font-family: Museo Sans Bold
+@media  ( max-width: 768px )
+    .navbar
+        &__contact
+            display: none
+    
+    
+    
+
