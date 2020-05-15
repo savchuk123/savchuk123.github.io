@@ -8,12 +8,16 @@ $(document).ready(function () {
   close.on("click", function () {
     modal.toggleClass("modal_active");
   });
-});
-
-$(window).scroll(function () {
-  if ($(this).scrollTop() != 0) {
-    $(".up").addClass("up_active");
-  } else {
-    $(".up").removeClass("up_active");
-  }
+  $(window).scroll(function () {
+    if ($(this).scrollTop() != 0) {
+      $('.up').fadeIn();
+    } else {
+      $('.up').fadeOut();
+    }
+  });
+  $('.up').click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 700);
+  });
 });
