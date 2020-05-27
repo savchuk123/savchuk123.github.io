@@ -1,0 +1,171 @@
+.header
+    background: url('../img/header/header-bg.jpg') center center no-repeat 
+    background-size: cover
+    padding-top: 15px
+    padding-bottom: 40px
+.navbar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__phone
+        margin-right: 30px
+        color: #292929
+        font-family: "Proxima Nova Bold",sans-serif
+        font-size: 20px
+        text-decoration: none
+.hero
+    display: flex
+    flex-wrap: wrap
+    margin-top: 80px
+    &-text
+        flex-basis: 50%
+        &__title
+            color: #292929
+            font-family: "Proxima Nova Bold",sans-serif
+            font-size: 40px
+            font-weight: 700
+            line-height: 58px
+            text-transform: uppercase
+        &__subtitle
+            color: #292929
+            font-size: 24px
+            font-weight: 400
+            max-width: 272px
+            width: 100%
+        &__cheker
+            display: inline-block
+            background-color: $main-color
+            padding: 30px 40px
+            color: #ffffff
+            font-size: 18px
+            font-weight: 400
+            text-align: center
+            strong
+                font-size: 30px
+        &__under
+            display: block
+            color: #292929
+            font-family: "Proxima Nova Bold"
+            font-size: 22px
+            font-weight: 700
+            text-transform: uppercase
+            margin-top: 35px
+    &-form
+        display: flex
+        flex-basis: 50%
+        justify-content: flex-end
+        
+        &__item
+            background-color: #fff
+            text-align: center
+            padding-top: 40px
+            padding-right: 35px
+            padding-left: 35px
+            padding-bottom: 35px
+            max-width: 350px
+            margin-top: 30px
+            position: relative
+        &__title
+            color: #292929
+            font-size: 18px
+            font-weight: 400
+            display: inline-block
+            
+            strong
+                font-weight: 700
+        &__input
+            margin-bottom: 25px
+        &__label
+            display: inline-block
+            position: absolute
+            left: 50%
+            background-color: #fff
+            max-width: 40%
+            padding: 10px
+            transform: translate(-50% ,-50%)
+            
+        &__button
+            margin-top: 20px
+            padding: 20px 40px
+            width: 100%
+            color: #ffffff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
+            border-radius: 8px
+            border: 1px solid $button-color
+            background: $button-color
+            &:hover
+                cursor: pointer 
+                background: #ffc642
+        &__under
+            color: #565656
+            font-size: 12px
+            margin-top: 15px
+@media   ( max-width: 1000px )
+    .hero
+        &-text
+            flex-basis: 100%
+            text-align: center
+            &__title
+                max-width: 500px
+                margin-left: auto
+                margin-right: auto
+                margin-bottom: 30px
+            &__subtitle
+                margin-left: auto
+                margin-right: auto
+                margin-bottom: 30px
+        &-form
+            flex-basis: 100%
+            justify-content: center
+@media   ( max-width: 768px )
+    .navbar
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__phone
+            margin-right: 30px
+            color: #292929
+            font-family: "Proxima Nova Bold",sans-serif
+            font-size: 20px
+            text-decoration: none
+        &__logo
+            position: absolute
+            top: 100px
+            left: 50%
+            transform: translateX(-50%)
+        &-info
+            display: flex
+            justify-content: space-between
+            flex-basis: 100%
+            align-items: center
+    .hero
+        &-text
+            flex-basis: 100%
+            text-align: center
+            
+            &__title
+                max-width: 500px
+                margin-left: auto
+                margin-right: auto
+                margin-top: 50px
+                margin-bottom: 30px
+                font-size: 35px
+@media   ( max-width: 456px )
+    .navbar
+        &__phone
+            margin: 0
+            font-size: 18px
+    .hero
+        &-text
+            flex-basis: 100%
+            text-align: center
+            &__title
+                max-width: 400px
+                margin-left: auto
+                margin-right: auto
+                margin-bottom: 30px
+                font-size: 25px
+                line-height: 1.4
