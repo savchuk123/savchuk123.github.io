@@ -1,144 +1,781 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+</html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>repair</title>
+	<title>Fitness First Responsive HTML Template</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="description" content="GYM">
+	<meta name="keywords" content="gym, html template, gym template, fitness, workout, body, force">
+	<meta name="author" content="">
+	<meta name="MobileOptimized" content="320">
+	<!--Srart Style -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- End Style -->
+	<!-- Favicon Link -->
+	<link rel="shortcut icon" type="image/png" href="images/header/favicon.png">
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <img src="img/header/header-logo.png" alt="navbar__logo" class="navbar__logo">
-                <div class="navbar-info">
-                    <a href="tel:+7 495 771 05 08" class="navbar__phone">+7 495 771 05 08</a>
-                    <button class="navbar__button button">получить консультацию</button>
-                </div>
-            </div>
-            <div class="hero">
-                <div class="hero-text">
-                    <h1 class="hero-text__title">Автоматизированная штукатурка стен</h1>
-                    <p class="hero-text__subtitle">Идеально ровные стены в кратчайшие сроки</p>
-                    <span class="hero-text__cheker">Стоимость работ <br> от <strong
-                            class="hero-text__strong">300</strong>
-                        руб/м<sup>2</sup></span>
-                    <span class="hero-text__under">Оплата по факту!</span>
-                </div>
-                <div class="hero-form">
-                    <form action="#" class="hero-form__item">
-                        <h2 class="hero-form__title">Для расчёта точной стоимости закажите <strong>выезд
-                                замерщика</strong> </h2>
-                        <label class="hero-form__label label" for="#">Ваше имя</label>
-                        <input class="hero-form__input input" type="text">
-                        <label class="hero-form__label label" for="#">Номер телефона</label>
-                        <input class="hero-form__input input" type="text">
-                        <button class="hero-form__button">Оставьте заявку</button>
-                        <p class="hero-form__under">Приедем в день обращения*</p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="slick">
-        <div class="container">
-            <h2 class="slick-header">Преимущества работы с нами
-            </h2>
-            <div class="slick-block">
-                <div class="slick-block__item">
-                    <div class="slick-block__img">
-                        <picture>
-                            <source srcset="img/slick/coin.svg" type="image/">
-                            <img src="img/slick/coin.png" alt="coin">
-                        </picture>
-                    </div>
-                    <h3 class="slick-block__title">Платите по факту</h3>
-                    <p class="slick-block__description">Вы оплачиваете выполненные работы только после их выполнения.
-                        Никаких скрытых доплат и
-                        промежуточных платежей.</p>
-                </div>
-                <div class="slick-block__item">
-                    <div class="slick-block__img">
-                        <picture>
-                            <source srcset="img/slick/document.svg" type="image/">
-                            <img src="img/slick/document.png" alt="document">
-                        </picture>
-                    </div>
-                    <h3 class="slick-block__title">Заключаем договор</h3>
-                    <p class="slick-block__description">Перед началом работ заключаем договор на юридическое лицо. Вы
-                        можете быть уверены, что все
-                        обязательства будут выполнены.</p>
-                </div>
-                <div class="slick-block__item">
-                    <div class="slick-block__img">
-                        <picture>
-                            <source srcset="img/slick/clock.svg" type="image/">
-                            <img src="img/slick/clock.png" alt="clock">
-                        </picture>
-                    </div>
-                    <h3 class="slick-block__title">Точно в срок</h3>
-                    <p class="slick-block__description">Работаем строго по установленным срокам, которые прописаны в
-                        договоре. Если не успеваем, Вы
-                        платите меньше</p>
-                </div>
-                <div class="slick-block__item">
-                    <div class="slick-block__img">
-                        <picture>
-                            <source srcset="img/slick/pig.svg" type="image/">
-                            <img src="img/slick/pig.png" alt="pig">
-                        </picture>
-                    </div>
-                    <h3 class="slick-block__title">Экономите на материалах</h3>
-                    <p class="slick-block__description">Мы являемся структурным подразделением компании поставщика
-                        строительных смесей <a href="gicema.ru">gicema.ru</a>и даём Вам самые выгодные цены.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="js/slick.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.slick-block').slick({
-                infinite: true,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                responsive: [
+	<!--Preloader Start-->
+	<div id="preloader">
+		<div id="status"><img src="images/header/preloader.gif" id="preloader_image" alt="loader">
+		</div>
+	</div>
+	<!--Preloader End-->
+	<!--Header start-->
+	<div data-scroll-index='0' style="width:100%;float:left;">
+		<div class="gm_header_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+						<div class="gm_logo">
+							<a href="index.html"><img src="images/header/logo.png" alt="Logo" title="Logo"></a>
+							<button class="gm_menu_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+						<div class="gm_main_menu_wrapper">
+							<div class="gm_menu gm_single_index_menu">
+								<ul>
+									<li><a href="0">home</a></li>
+									<li><a href="1">about us</a></li>
+									<li><a href="2">classes</a></li>
+									<li><a href="3">blog</a></li>
+									<li><a href="4">Packages</a></li>
+									<li><a href="5">trainers</a></li>
+									<li><a href="6">gallery</a></li>
+									<li><a href="7">faq's</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Header end-->
+		<!--Slider section start -->
+		<div class="gm_slider_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="gm_slider">
+							<div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
+								data-alias="classic4export" data-source="gallery"
+								style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+								<!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
+								<div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display:none;"
+									data-version="5.3.0.2">
+									<ul>
+										<!-- SLIDE  -->
+										<li data-index="rs-3045" data-transition="zoomout" data-slotamount="default"
+											data-hideafterloop="0" data-hideslideonmobile="off"
+											data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+											data-masterspeed="2000" data-thumb="http://placehold.it/100X50"
+											data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500"
+											data-fsslotamount="7" data-saveperformance="off" data-title="Strength"
+											data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
+											data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
+											data-description="">
+											<!-- MAIN IMAGE -->
+											<img src="images/slider/slider-img(1).jpg" alt=""
+												data-bgposition="center center" data-bgfit="cover"
+												data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg"
+												data-no-retina>
+											<!-- LAYERS -->
 
-                    {
-                        breakpoint: 1200,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
+											<!-- LAYER NR. 1 -->
+											<div class="tp-caption NotGeneric-Title   tp-resizeme"
+												id="slide-3045-layer-1" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','45']"
+												data-lineheight="['70','70','70','50']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1000,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[10,10,10,10]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 5; white-space: nowrap;text-transform:left;">STRENGTH
+												WITHIN</div>
 
-                        }
-                    },
-                    {
-                        breakpoint: 1000,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 790,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        },
-                    }
-                    // You can unslick at a given breakpoint now by adding:
-                    // settings: "unslick"
-                    // instead of a settings object
-                ]
-            });
-        });
-    </script>
+											<!-- LAYER NR. 2 -->
+											<div class="tp-caption NotGeneric-SubTitle   tp-resizeme"
+												id="slide-3045-layer-4" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['52','52','52','51']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 6; white-space: nowrap;text-transform:left;">PRIDE
+												THROUGHOUT</div>
+
+											<!-- LAYER NR. 3 -->
+											<div class="tp-caption NotGeneric-Icon   tp-resizeme"
+												id="slide-3045-layer-8" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['-68','-68','-68','-68']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 7; white-space: nowrap;text-transform:left;cursor:default;">
+												<i class="pe-7s-refresh"></i> </div>
+										</li>
+										<!-- SLIDE  -->
+										<li data-index="rs-3046" data-transition="fadetotopfadefrombottom"
+											data-slotamount="default" data-hideafterloop="0"
+											data-hideslideonmobile="off" data-easein="Power3.easeInOut"
+											data-easeout="Power3.easeInOut" data-masterspeed="1500"
+											data-thumb="http://placehold.it/100X50" data-rotate="0"
+											data-saveperformance="off" data-title="Heavy" data-param1="" data-param2=""
+											data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
+											data-param8="" data-param9="" data-param10="" data-description="">
+											<!-- MAIN IMAGE -->
+											<img src="images/slider/slider-img(2).jpg" alt=""
+												data-bgposition="center center" data-bgfit="cover"
+												data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg"
+												data-no-retina>
+											<!-- LAYERS -->
+
+											<!-- LAYER NR. 4 -->
+											<div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-3"
+												id="slide-3046-layer-1" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','45']"
+												data-lineheight="['70','70','70','50']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":2000,"to":"o:1;","delay":1000,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[10,10,10,10]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 8; white-space: nowrap;text-transform:left;">OF COURSE
+												ITS HEAVY</div>
+
+											<!-- LAYER NR. 5 -->
+											<div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-2"
+												id="slide-3046-layer-4" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['52','52','52','51']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 9; white-space: nowrap;text-transform:left;">THATS WHY
+												THEY CALL IT WEIGHT</div>
+
+											<!-- LAYER NR. 6 -->
+											<div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-1"
+												id="slide-3046-layer-8" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['-68','-68','-68','-68']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 10; white-space: nowrap;text-transform:left;cursor:default;">
+												<i class="pe-7s-mouse"></i> </div>
+
+											<!-- LAYER NR. 7 -->
+											<div class="tp-caption   tp-resizeme rs-parallaxlevel-8"
+												id="slide-3046-layer-10" data-x="['left','left','left','left']"
+												data-hoffset="['680','680','680','680']"
+												data-y="['top','top','top','top']"
+												data-voffset="['632','632','632','632']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="image"
+												data-responsive_offset="on"
+												data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 11;text-transform:left;border-width:0px;">
+												<div class="rs-looped rs-pendulum" data-easing="linearEaseNone"
+													data-startdeg="-20" data-enddeg="360" data-speed="35"
+													data-origin="50% 50%"><img src="images/slider/blurflake4.png" alt=""
+														data-ww="['240px','240px','240px','240px']"
+														data-hh="['240px','240px','240px','240px']" width="240"
+														height="240" data-no-retina> </div>
+											</div>
+
+											<!-- LAYER NR. 8 -->
+											<div class="tp-caption   tp-resizeme rs-parallaxlevel-7"
+												id="slide-3046-layer-11" data-x="['left','left','left','left']"
+												data-hoffset="['948','948','948','948']"
+												data-y="['top','top','top','top']"
+												data-voffset="['487','487','487','487']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="image"
+												data-responsive_offset="on"
+												data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 12;text-transform:left;border-width:0px;">
+												<div class="rs-looped rs-wave" data-speed="20" data-angle="0"
+													data-radius="50px" data-origin="50% 50%"><img
+														src="images/slider/blurflake3.png" alt=""
+														data-ww="['170px','170px','170px','170px']"
+														data-hh="['170px','170px','170px','170px']" width="170"
+														height="170" data-no-retina> </div>
+											</div>
+
+											<!-- LAYER NR. 9 -->
+											<div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
+												id="slide-3046-layer-12" data-x="['left','left','left','left']"
+												data-hoffset="['719','719','719','719']"
+												data-y="['top','top','top','top']"
+												data-voffset="['200','200','200','200']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="image"
+												data-responsive_offset="on"
+												data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 13;text-transform:left;border-width:0px;">
+												<div class="rs-looped rs-rotate" data-easing="Power2.easeInOut"
+													data-startdeg="-20" data-enddeg="360" data-speed="20"
+													data-origin="50% 50%"><img src="images/slider/blurflake2.png" alt=""
+														data-ww="['50px','50px','50px','50px']"
+														data-hh="['51px','51px','51px','51px']" width="50" height="51"
+														data-no-retina> </div>
+											</div>
+
+											<!-- LAYER NR. 10 -->
+											<div class="tp-caption   tp-resizeme rs-parallaxlevel-6"
+												id="slide-3046-layer-13" data-x="['left','left','left','left']"
+												data-hoffset="['187','187','187','187']"
+												data-y="['top','top','top','top']"
+												data-voffset="['216','216','216','216']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="image"
+												data-responsive_offset="on"
+												data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":2000,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 14;text-transform:left;border-width:0px;">
+												<div class="rs-looped rs-wave" data-speed="4" data-angle="0"
+													data-radius="10" data-origin="50% 50%"><img
+														src="images/slider/blurflake1.png" alt=""
+														data-ww="['120px','120px','120px','120px']"
+														data-hh="['120px','120px','120px','120px']" width="120"
+														height="120" data-no-retina> </div>
+											</div>
+										</li>
+										<!-- SLIDE  -->
+										<li data-index="rs-3049" data-transition="zoomin" data-slotamount="7"
+											data-hideafterloop="0" data-hideslideonmobile="off"
+											data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+											data-masterspeed="2000" data-thumb="http://placehold.it/100X50"
+											data-rotate="0" data-saveperformance="off" data-title="Results"
+											data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
+											data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
+											data-description="">
+											<!-- MAIN IMAGE -->
+											<img src="images/slider/slider-img(3).jpg" alt=""
+												data-bgposition="center center" data-kenburns="on" data-duration="10000"
+												data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+												data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500"
+												data-offsetend="0 500" data-bgparallax="10" class="rev-slidebg"
+												data-no-retina>
+											<!-- LAYERS -->
+
+											<!-- LAYER NR. 18 -->
+											<div class="tp-caption NotGeneric-Title   tp-resizeme"
+												id="slide-3049-layer-1" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['0','0','0','0']" data-fontsize="['70','70','70','45']"
+												data-lineheight="['70','70','70','50']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1000,"split":"chars","splitdelay":0.1,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[10,10,10,10]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 22; white-space: nowrap;text-transform:left;">YOU WANT
+												RESULTS</div>
+
+											<!-- LAYER NR. 19 -->
+											<div class="tp-caption NotGeneric-SubTitle   tp-resizeme"
+												id="slide-3049-layer-4" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['52','52','52','51']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 23; white-space: nowrap;text-transform:left;">THEN TRAIN
+												LIKE IT</div>
+
+											<!-- LAYER NR. 20 -->
+											<div class="tp-caption NotGeneric-Icon   tp-resizeme"
+												id="slide-3049-layer-8" data-x="['center','center','center','center']"
+												data-hoffset="['0','0','0','0']"
+												data-y="['middle','middle','middle','middle']"
+												data-voffset="['-68','-68','-68','-68']" data-width="none"
+												data-height="none" data-whitespace="nowrap" data-type="text"
+												data-responsive_offset="on"
+												data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+												data-textAlign="['left','left','left','left']"
+												data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+												data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+												style="z-index: 24; white-space: nowrap;text-transform:left;cursor:default;">
+												<i class="pe-7s-diamond"></i> </div>
+										</li>
+									</ul>
+									<div class="tp-bannertimer"
+										style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>
+								</div>
+							</div><!-- END REVOLUTION SLIDER -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Slider section End -->
+	<!--Offer section start-->
+	<div data-scroll-index='1' style="width:100%;float:left;">
+		<div class="gm_offer_wrapper gm_toppadder80 gm_bottompadder80">
+			<div class="container">
+				<div class="row">
+					<div class="gm_bnr_infowrapper">
+						<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+							<div class="gm_bnr_text">
+								<h1>Get 10 Days Free Training Sessions!</h1>
+								<p>Valuable offer, Download our free MOBILE APP now and get up to 50% OFF on 1st MONTH
+									FEE!</p>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+							<div class="gm_bnr_form">
+								<h3>get started today</h3>
+								<form>
+									<input type="text" placeholder="Your Name">
+									<input type="text" placeholder="Phone no">
+
+									<button type="submit" class="gm_btn">LET's START WORKOUT</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Offer section start-->
+	<!--classes section start-->
+	<div data-scroll-index='2' style="width:100%;float:left;">
+		<div class="gm_service_wrapper gm_toppadder80 gm_bottompadder80">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+						<div class="gm_heading gm_bottompadder50">
+							<h1>our classes</h1>
+							<p>At Upstart, we pride ourselves on offering exceptional customer experiences for every
+								client that walks through our doors.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_service_box">
+							<div class="gm_service_img">
+								<img src="http://placehold.it/360X230" alt="classes" title="classes">
+							</div>
+							<div class="gm_service_info">
+								<h3>Strength Training</h3>
+								<p>Cras finibus non magna sed varius.<br> Fusce risus eros, dapibus vitae dignissim vel
+									consequat et dolor.</p>
+								<span>From 25$/week</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_service_box">
+							<div class="gm_service_img">
+								<img src="http://placehold.it/360X230" alt="classes" title="classes">
+							</div>
+							<div class="gm_service_info">
+								<h3>Cardio &amp; Intervals</h3>
+								<p>Cras finibus non magna sed varius.<br> Fusce risus eros, dapibus vitae dignissim vel
+									consequat et dolor.</p>
+								<span>From 35$/week</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_service_box">
+							<div class="gm_service_img">
+								<img src="http://placehold.it/360X230" alt="classes" title="classes">
+							</div>
+							<div class="gm_service_info">
+								<h3>Balance &amp; Flexibility</h3>
+								<p>Cras finibus non magna sed varius.<br> Fusce risus eros, dapibus vitae dignissim vel
+									consequat et dolor.</p>
+								<span>From 45$/week</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--classes section end-->
+		<!--Counter section start-->
+		<div class="gm_counter_wrapper gm_toppadder100 gm_bottompadder80">
+			<div class="container">
+				<div class="row">
+					<div class="gm_counter_box">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="gm_counter">
+								<i class="fa fa-user-plus" aria-hidden="true"></i>
+								<h2 class="timer" data-from="0" data-to="30" data-speed="5000"></h2>
+								<h4>Experience</h4>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="gm_counter">
+								<i class="fa fa-trophy" aria-hidden="true"></i>
+								<h2 class="timer" data-from="0" data-to="520" data-speed="5000"></h2>
+								<h4>Competitions won</h4>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="gm_counter">
+								<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+								<h2 class="timer" data-from="0" data-to="1000" data-speed="5000"></h2>
+								<h4>People Likes</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Counter section end-->
+	<!--Blog section start-->
+	<div data-scroll-index='3' style="width:100%;float:left;">
+		<div class="gm_blog_wrapper gm_toppadder80 gm_bottompadder80">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+						<div class="gm_heading gm_bottompadder50">
+							<h1>our blog</h1>
+							<p>At Upstart, we pride ourselves on offering exceptional customer experiences for every
+								client that walks through our doors.</p>
+						</div>
+					</div>
+					<div class="gm_blog_box gm_bottompadder50">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-push-6 col-md-push-6 col-sm-push-6">
+							<div class="gm_blog_img">
+								<img src="http://placehold.it/555X350" alt="Blog" title="Blog">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-pull-6 col-md-pull-6 col-sm-pull-6">
+							<div class="gm_blog_info">
+								<h3>Welcome to our Haversack Fitness Studio.</h3>
+								<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+									dolore magna aliquyam erat sed diam voluptua. At vero eos et accusam et justo duo
+									dolores et ea rebum."</p>
+							</div>
+						</div>
+					</div>
+					<div class="gm_blog_box">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="gm_blog_img">
+								<img src="http://placehold.it/555X350" alt="Blog" title="Blog">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div class="gm_blog_info">
+								<h3>Our Personal Fitness Trainer</h3>
+								<span>8 years exeprinced Personal Trainer, Body Conditioning instructor within the City
+									and Central London.</span>
+								<p>I am currently a Personal Trainer at the Brand New Kensington Lesuire Centre situated
+									close to latimer road Underground station with sessions within the gym.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Blog section end-->
+	<!--Price Table section start-->
+	<div data-scroll-index='4' style="width:100%;float:left;">
+		<div class="gm_price_wrapper gm_toppadder80 gm_bottompadder80">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+						<div class="gm_heading gm_bottompadder70">
+							<h1>our packages</h1>
+							<p>At Upstart, we pride ourselves on offering exceptional customer experiences for every
+								client that walks through our doors.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_price_box">
+							<h5>start</h5>
+							<h1><sup>$</sup>00<sub>/mon</sub></h1>
+							<p>Over Cardio Pieces</p>
+							<ul>
+								<li>Attend any daily group session</li>
+								<li>No booking required</li>
+								<li>Caters to all fitness levels</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_price_box">
+							<h5>monthly</h5>
+							<h1><sup>$</sup>50<sub>/mon</sub></h1>
+							<p>Over Cardio Pieces</p>
+							<ul>
+								<li>Attend any daily group session</li>
+								<li>No booking required</li>
+								<li>Caters to all fitness levels</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_price_box">
+							<h5>yearly</h5>
+							<h1><sup>$</sup>120<sub>/year</sub></h1>
+							<p>Over Cardio Pieces</p>
+							<ul>
+								<li>Attend any daily group session</li>
+								<li>No booking required</li>
+								<li>Caters to all fitness levels</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Price Table section end-->
+	<!--Team section start-->
+	<div data-scroll-index='5' style="width:100%;float:left;">
+		<div class="gm_team_wrapper gm_toppadder80 gm_bottompadder50">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+						<div class="gm_heading gm_bottompadder50">
+							<h1>our trainers</h1>
+							<p>At Upstart, we pride ourselves on offering exceptional customer experiences for every
+								client that walks through our doors.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_team_box">
+							<img src="http://placehold.it/360X440" alt="Trainer" title="Trainer">
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_team_box">
+							<img src="http://placehold.it/360X440" alt="Trainer" title="Trainer">
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="gm_team_box">
+							<img src="http://placehold.it/360X440" alt="Trainer" title="Trainer">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Team section end-->
+
+		<!-- gallery section start -->
+		<div data-scroll-index='6' style="width:100%;float:left;">
+			<div class="gm_gallery_wrapper gm_toppadder80 gm_bottompadder60">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+							<div class="gm_heading gm_bottompadder50">
+								<h1>our gallery</h1>
+								<p>At Upstart, we pride ourselves on offering exceptional customer experiences for every
+									client that walks through our doors.</p>
+							</div>
+						</div>
+						<div class="gm_gallery_box popup-gallery">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item1" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item2" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item3" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item4" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item5" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item6" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item7" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item8" class="img-responsive"></a>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="gm_gallery_boxes">
+									<a href="http://placehold.it/720X540" title=""><img
+											src="http://placehold.it/360X230" alt="item9" class="img-responsive"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- gallery section end -->
+		<!--FAQ section start-->
+		<div data-scroll-index='7' style="width:100%;float:left;">
+			<div class="gm_faq_wrapper gm_toppadder80 gm_bottompadder70">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+							<div class="gm_heading gm_bottompadder50">
+								<h1>Frequently Ask Questions</h1>
+								<p>At Upstart, we pride ourselves on offering exceptional customer experiences for every
+									client that walks through our doors.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="gm_faq_box">
+								<h4>01. How do join your gym through your mobile app ?</h4>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+									laudantium, totam rem aperiam eaque ipsa quae. ab illo inventore veritatis et quasi
+									architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+							<div class="gm_faq_box">
+								<h4>03.What are the different modes of payment you support ?</h4>
+								<p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+									qui
+									ratione voluptatem, perspiciatis unde omnis iste natus error sit voluptatem
+									accusantium
+									doloremque laudantium, totam rem aperiam eaque ipsa quae illo inventore veritatis et
+									quasi architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="gm_faq_box">
+								<h4>02.How to Know About offers ? </h4>
+								<p>Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architecto beatae
+									vitae dicta sunt explicabo. Perspiciatis unde omnis iste natus error sit voluptatem
+									accusantium doloremque laudantium.</p>
+							</div>
+							<div class="gm_faq_box">
+								<h4>04.What if thee car does not show up?</h4>
+								<p>Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+									aperiam eaque ipsa quae illo inventore.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+							<div class="gm_heading gm_toppadder30">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--FAQ section end-->
+
+			<!--Footer section start-->
+			<div class="gm_footer_top_wrapper gm_toppadder80 gm_bottompadder60">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="gm_footer_logo">
+								<img src="images/header/logo.png" class="img-responsive" alt="logo">
+							</div>
+							<div class="gm_footer_menu gm_single_index_menu">
+								<ul>
+									<li><a href="0">home</a></li>
+									<li><a href="2">classes</a></li>
+									<li><a href="4">prices</a></li>
+									<li><a href="6">gallery</a></li>
+								</ul>
+							</div>
+							<div class="gm_footer_address">
+								<p><i class="fa fa-phone" aria-hidden="true"></i> <a
+										href="tel:+375297896132">+375297896132</a></p>
+								<p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+										unickgames1@gmail.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Footer section end-->
+		<!--Main js file Style-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="js/plugin/revol/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="js/plugin/countto/jquery.countTo.js"></script>
+		<script type="text/javascript" src="js/plugin/countto/jquery.appear.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script>$(function () { $.scrollIt(); });</script>
 </body>
-
 
 </html>
