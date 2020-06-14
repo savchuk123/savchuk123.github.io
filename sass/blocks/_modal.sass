@@ -18,10 +18,15 @@
         background-color: #fff
         padding: 40px
         position: relative
+        
         &__close
             position: absolute
             top: 0
             right: 0
+            border: none
+            background: #fff
+            &:hover
+                cursor: pointer
 .up
     position: fixed
     bottom: 30px
@@ -37,3 +42,148 @@
         background: $main-color
         
         
+.price-modal
+    background: #fff
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(#000, 0.5)
+    display: none
+    &-block
+        display: flex
+        
+    &__text
+        background-color: #f7f7f7 
+        flex-basis: 50%
+    &__form
+        flex-basis: 50%
+.price-modal
+.modal-price__text
+    display: flex
+    flex-direction: column
+    flex-basis: 50%
+.modal-price__item
+    display: flex
+    padding-bottom: 15px
+
+.price-modal-block
+    background: #fff
+    margin: auto
+    padding: 40px
+    position: relative
+    display: flex
+    
+.modal-price-item__text
+    display: flex
+    flex-direction: column
+    padding-left: 30px
+
+    h4 
+        margin-top: 0px
+        
+.fix
+    position: relative
+    width: 175px
+    &::before
+        content: ''
+        width: 40px
+        height: 2px
+        background: #ffd200
+        position: absolute
+        left: 0
+        top: 28px
+    h4 
+        font-size: 15px
+        font-family: 'Museo Sans Bold'
+    span
+        margin-top: 5px
+        font-size: 16px
+        font-weight: 400
+        strong
+            font-family: 'Museo Sans Bold'
+.modal-list
+    padding-left: 0
+    &__header
+        font-size: 14px
+        font-weight: 700
+        font-family: 'Museo Sans Bold'
+        margin-top: 40px
+    &__item
+        list-style: none
+        font-size: 14px
+        font-weight: 400
+        line-height: 25px
+        display: flex
+        align-items: center
+        span
+            padding-left: 10px  
+    &__point
+        width: 7px
+        height: 7px
+        border-radius: 4px
+        background-color: #ffd200
+.modal-form__main
+    flex-basis: 50%
+    display: flex
+    flex-direction: column
+    padding-left: 60px
+    padding-right: 60px
+.modal__title
+    text-align: center
+    display: block
+    margin-top: 0
+    margin-bottom: 40px
+    margin-left: auto
+    margin-right: auto
+    font-size: 18px
+    font-weight: 400
+    line-height: 33px
+    font-family: 'Museo Sans Bold',sans-serif
+    max-width: 310px
+    width: 100% 
+        
+.modal__subtitle
+    display: block
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 20px
+    font-size: 16px
+    text-align: center
+    margin-bottom: 50px
+.modal__description
+    font-size: 15px
+    font-weight: 400
+    line-height: 20px
+    text-align: center
+    display: block
+    margin-left: auto
+    margin-right: auto
+    max-width: 300px
+.modal_active
+    display: flex
+.modal-input
+    width: 100%
+    display: block
+    margin-bottom: 15px
+.modal__number
+    display: block
+    text-align: center
+    margin-top: 15px
+    color: #333333
+    font-family: "Museo Sans Bold"
+    font-size: 24px
+    font-weight: 400
+    line-height: 24px
+@media   ( max-width: 950px )
+            
+    .price-modal
+        &-block
+            flex-direction: column
+            padding: 0
+    .modal-price__text
+        display: none
+    .modal-form__main
+        padding-right: 10px
+        padding-left: 10px

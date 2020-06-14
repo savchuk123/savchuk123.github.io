@@ -1,49 +1,54 @@
-*
-    box-sizing: border-box
-body
-    font-family: "Proxima Nova Regular",sans-serif
+body 
+    font-family: 'Museo Sans Light',sans-serif
+
 img
     max-width: 100%
-img
-    display: inline-block
+button,input
+    outline: none
 .container
-    max-width: 1280px
+    width: 1170px
     margin: auto
+*   
+    box-sizing: border-box
+
 .button
-    padding: 18px 25px
-    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
-    border-radius: 8px
-    background: $button-color
-    border: none 
-    color: #ffffff
-    font-size: 12px
+    background: $main-color
+    border: none
+    border-radius: 10px
+    padding: 15px 25px
+    font-size: 16px
     font-weight: 400
-    text-transform: uppercase
-    transition: 0.2s
+    color: $text-color
+    font-family: Museo Sans Bold
     &:hover
-        cursor: pointer 
-        background: #ffc642
-.label
-    font-size: 13px
+        background-color: lighten($main-color, 10%)
+        cursor: pointer
+.section
+    padding: 90px 0
+    &-title
+        font-size: 24px
+        font-family: 'Museo Sans Bold'
+        text-align: center
+        max-width: 500px
+    &-subtitle
+        font-size: 16px
+        display: block
 .input
-    border-radius: 5px
-    border: 1px solid #dddddd
-    padding-top: 18px
-    padding-bottom: 18px
-    padding-left: 10px
-    width: 100%
-@media   ( max-width: 1200px )
+    border-radius: 10px
+    border: 1px solid $border-input
+    padding: 20px 26px
+    font-size: 15px
+
+
+@media  ( max-width: 1200px )
     .container
-        max-width: 1000px
-@media   ( max-width: 1000px )
+        width: 960px
+@media  ( max-width: 968px )
     .container
-        max-width: 768px
-@media   ( max-width: 768px )
-    .container
-        max-width: 560px
-    .button
-        padding: 15px 15px
-@media   ( max-width: 456px )
-    
-    .button
-        padding: 15px 10px
+        max-width: 950px
+        width: 95%
+.arrows
+    .arrow__left,.arrow__right
+        cursor: pointer
+@media  ( max-width: 768px )
+  

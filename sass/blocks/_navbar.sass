@@ -1,72 +1,41 @@
-.navbar
-    padding-top: 15px
-    padding-bottom: 10px
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15)
-    display: flex
-    position: fixed
-    width: 100%
-    background: #fff
-    z-index: 100
+
     
+    
+.navbar
     &-block
         display: flex
         justify-content: space-between
         align-items: center
-    &-list
-        list-style: none
-        font-size: 16px
+        
+    &__info
         display: flex
-        li
-            margin-right: 40px
-        &__item
-            color: #000
-            
-    &-phones
-        display: flex
-        &__item
-            
-            margin-right: 15px
-            color: $main-color
-            font-style: normal
-            font-weight: normal
-            font-size: 16px
-            line-height: 22px
-    &-basket
-        padding: 13px 24px
-        border: 1px solid #000
-        border-radius: 30px
-        display: flex
+        justify-content: center
+        text-align: right
+        
         align-items: center
-        &__text
-            font-size: 12px
-            
-            color: #000
-        &__strong
-            font-weight: 500
-            font-size: 22px
-            margin-left: 7px
-            margin-right: 2px
-.gm_menu_btn 
-    display: block
-   
-    border: none
-    width: 40px
-    height: 30px
-    font-size: 16px
-    color: #ffffff
-    background-color: #e83f53
-    border-radius: 3px
-@media   ( max-width: 1200px )
-    .navbar     
-        li 
-            margin-right: 20px
-        &-phones
+    &__logo
+        
+ 
+    &__contact
+        display: flex
+        flex-direction: column
+        padding: 16px
+        margin-right: 10px
+    &__address
+        color: $text-color 
+        font-size: 13px
+        margin-bottom: 10px 
+
+    &__number
+        color: $text-color
+        font-size: 20px
+        text-decoration: none
+        font-family: Museo Sans Bold
+@media  ( max-width: 768px )
+    .navbar
+        &__contact
             display: none
-@media (max-width: 767px)
-    .navbar  
-        &-list
-            display: none    
-        &-phones
-            display: none   
-        &-basket
-            display: none
+    
+    
+    
+
