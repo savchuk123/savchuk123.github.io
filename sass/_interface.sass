@@ -1,0 +1,52 @@
+*
+    box-sizing: border-box
+img 
+    max-width: 100%
+.container
+    max-width: 1200px
+    margin-right: auto
+    margin-left: auto
+@mixin Noto
+    font-family: 'Noto Sans', sans-serif
+    font-style: normal
+    font-weight: normal
+    
+body
+    color: #000
+    @include Noto
+a 
+    text-decoration: none
+.button_1
+    padding: 14px 30px
+    border: 1px solid $main-color
+    background: $main-color
+    border-radius: 50px
+    color: #fff
+    transition: 0.2s
+    &:hover
+        cursor: pointer
+        border: 1px solid $main-color
+        background-color: #fff
+        color: $main-color
+.button_2
+    padding: 14px 30px
+    border: 1px solid $main-color
+    background-color: #fff
+    border-radius: 50px
+    transition: 0.2s
+    color: $main-color
+    &:hover 
+        cursor: pointer
+        border: 1px solid $main-color
+        background: $main-color
+        color: #fff
+    
+@media   ( max-width: 1200px )
+    .container
+        max-width: 960px
+@media   ( max-width: 960px )
+    .container
+        max-width: 768px
+@media   ( max-width: 768px )
+    .container
+        max-width: 600px

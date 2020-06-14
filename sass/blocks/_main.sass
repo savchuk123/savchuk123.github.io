@@ -1,0 +1,280 @@
+.main
+    background: no-repeat top 0 right 0   url(../img/main/main-bg.png) 
+    z-index: 1
+    position: relative
+.header
+    padding-top: 120px
+    padding-bottom: 200px
+    
+
+    &-block
+        text-align: center
+        z-index: 1500
+        
+        &__title
+            font-weight: bold
+            font-size: 40px
+            line-height: 48px
+            color: $bold-main-color
+            margin-top: 50px
+            margin-bottom: 20px
+            text-align: center
+            z-index: 1000
+        &__subtitle
+            font-weight: 500
+            font-size: 22px
+            margin-bottom: 40px
+            display: block
+            
+
+        &__button
+            margin-left: 25px
+            margin-right: 5px
+            line-height: 22px
+            z-index: 1000
+
+    &-images
+        display: flex
+        justify-content: center
+        margin-top: 50px
+
+        &__img
+            height: 75px
+            display: flex
+            align-items: center
+            margin-right: 25px
+
+
+.img-absolute_1
+    position: absolute
+    top: -10px
+    left: 0
+    
+.img-absolute_2
+    position: absolute
+    left: 330px
+    top: 470px
+    z-index: 50
+    display: block
+.img-absolute_3
+    position: absolute
+    left: 190px
+    top: 80px
+    z-index: 50
+    display: block
+.img-absolute_4
+    position: absolute
+    left: 60px
+    top: 485px
+    z-index: 60
+    display: block
+.img-absolute_5
+    position: absolute
+    left: 240px
+    top: 380px
+    z-index: 1
+    display: block
+.img-absolute_6
+    position: absolute
+    left: 0px
+    top: 490px
+    z-index: 1
+    display: block
+.img-absolute_7
+    position: absolute
+    left: 260px
+    top: 530px
+    z-index: 1
+    display: block
+.img-absolute_8
+    position: absolute
+    left: 360px
+    top: 575px
+    z-index: 1
+    display: block
+.img-absolute_9
+    position: absolute
+    left: 350px
+    top: 730px
+    z-index: 1
+    display: block
+.img-absolute_10
+    position: absolute
+    left: 0px
+    top: 550px
+    display: block
+.img-absolute_11
+    position: absolute
+    left: 425px
+    top: 590px
+    z-index: 1
+    display: block
+.img-absolute_12
+    position: absolute
+    right: 20px
+    top: 0px
+    z-index: 3
+    display: block
+.img-absolute_13
+    position: absolute
+    right: 220px
+    top: 430px
+    z-index: 4
+    display: block
+.img-absolute_14
+    position: absolute
+    right: 40px
+    top: 720px
+    z-index: 5
+    display: block
+.img-absolute_15
+    position: absolute
+    right: 30px
+    top: 300px
+    z-index: 6
+    display: block
+.img-absolute_16
+    position: absolute
+    right: 0px
+    top: 230px 
+    display: block
+// .img-absolute_17
+//     position: absolute
+//     left: 0px
+//     bottom: 10px
+    
+.advantages  
+    padding-bottom: 200px
+    &-img
+        width: 100px
+        height: 100px
+        display: flex
+        justify-content: left
+        align-items: start
+    &-block
+        text-align: center
+        
+        &__title
+            font-weight: bold
+            font-size: 40px
+            line-height: 48px
+            color: $bold-main-color
+            margin-top: 50px
+            margin-bottom: 20px
+            text-align: center
+            margin-left: auto
+            margin-right: auto
+            max-width: 725px
+            margin-bottom: 100px
+        &__item
+            flex-basis: 50%
+            display: flex
+            margin-bottom: 80px
+            &:last-child
+                align-self: start
+            &_img
+                flex-basis: 50%
+                display: flex
+                margin-bottom: 80px
+        &__text
+            display: flex
+            flex-direction: column
+            text-align: left
+            margin-left: 45px
+            max-width: 375px
+            color: #000
+            h4 
+                font-weight: normal
+                font-size: 22px
+                margin-top: 0
+                margin-bottom: 0
+                
+                
+            p 
+                margin-top: 10px
+                margin-bottom: 0
+                font-weight: normal
+                font-size: 15px
+                line-height: 20px
+                max-width: 375px
+    &-items
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+
+@media   ( max-width: 1200px )
+    .img-absolute_1
+        z-index: -1
+    .img-absolute_2
+        display: none
+    .img-absolute_3
+        display: none
+    .img-absolute_4
+        z-index: -1
+    .img-absolute_5
+        z-index: -1
+    .img-absolute_6
+        z-index: -1
+    .img-absolute_7
+        z-index: -1
+    .img-absolute_8
+        display: none
+    .img-absolute_9
+        display: none
+    .img-absolute_10
+        display: none
+    .img-absolute_11
+        display: none
+    .img-absolute_12
+        display: none
+    .img-absolute_13
+        display: none
+    .img-absolute_14
+        display: none
+    .img-absolute_15
+        display: none
+    .img-absolute_16
+        display: none
+
+@media   ( max-width: 925px )
+    .advantages  
+        
+        &-block
+            &__img
+                display: none
+            &__item
+                flex-basis: 100%
+                display: flex
+                margin-bottom: 80px
+                &:last-child
+                    align-self: start
+                &_img
+                    display: none
+            &__text
+                display: flex
+                flex-direction: column
+                text-align: left
+                margin-left: 45px
+                max-width: 375px
+                color: #000
+                h4 
+                    font-weight: normal
+                    font-size: 22px
+                    margin-top: 0
+                    margin-bottom: 0
+                
+                p 
+                    margin-top: 10px
+                    margin-bottom: 0
+                    font-weight: normal
+                    font-size: 15px
+                    line-height: 20px
+        &-items
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+@media   ( max-width: 500px )
+    .header-block__button
+        margin-bottom: 20px
+        
+              
