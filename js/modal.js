@@ -1,7 +1,5 @@
 var button = $("#button");
-var price = $("#price");
 var modal = $("#modal");
-var priceModal = $("#price-modal");
 var close = $("#close");
 $(document).ready(function () {
   button.on("click", function () {
@@ -10,7 +8,6 @@ $(document).ready(function () {
   close.on("click", function () {
     modal.toggleClass("modal_active");
   });
-
   $(window).scroll(function () {
     if ($(this).scrollTop() != 0) {
       $('.up').fadeIn();
